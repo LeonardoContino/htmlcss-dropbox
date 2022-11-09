@@ -14,6 +14,9 @@ li{
     border: 2px dashed black;
 
 }
+.border-white{
+    border: 2px dashed white;
+}
 a{
     text-decoration: none;
 }
@@ -30,16 +33,23 @@ a{
     align-items: center;
 }
 .header-left{
-   flex-basis: 30%;
-    width: 100%;
+   flex-basis: 50%;
+    width: 50%;
     align-items: center;
+    flex-grow: 1;
+    
+}
+.ul-header > a{
+    padding-left: 10px;
     
 }
 .header-right{
-    flex-basis: 25%;
+    flex-basis: 50%;
     width: 100%;
     justify-content: flex-end;
     align-items: center;
+    flex-grow: 1;
+    
 }
 .header-left>img{
     height: 30px;
@@ -47,10 +57,13 @@ a{
 nav{
     width: 100%;
     padding: 20px;
+    
 }
 .ul-header{
-    width: 100%;
+    width: 40%;
     justify-content: space-between;
+    
+    
 }
 
 .title{
@@ -213,6 +226,7 @@ footer{
     margin: auto;
     height: 500px;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 .title-quest{
     width: 100%;
@@ -222,4 +236,32 @@ footer{
 .main-question{
     width: 100%;
     height: 100px;
+}
+
+/* black footer */
+
+.footer-black{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    position: relative;
+
+}
+.link-footer{
+    width: 200px;
+    margin-top: 80px;
+    height: 300px;
+    flex-direction: column;
+    
+}
+.language{
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    background-color: black;
+    position: absolute;
+    left: 210px;
+    bottom: 10px;
 }
