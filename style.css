@@ -43,29 +43,26 @@ a{
     padding-left: 10px;
     
 }
-.header-right{
-    flex-basis: 50%;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
-    flex-grow: 1;
-    
-}
+
 .header-left>img{
     height: 30px;
 }
-nav{
-    width: 100%;
-    padding: 20px;
+.nav-bar{
+    
+    justify-content: space-between;
     
 }
 .ul-header{
     width: 40%;
-    justify-content: space-between;
+    
     
     
 }
-
+.btm-blue{
+    background-color: #0F60FF;
+    color: white;
+    padding: 5px 10px;
+}
 .title{
     
     background-color: #B4D0E7;
