@@ -60,7 +60,7 @@ nav{
     background-color: #B4D0E7;
     margin: auto;
     padding-top: 150px;
-    
+    height: 600px;
 }
 .title-main{
     width: 1000px;
@@ -71,8 +71,14 @@ nav{
 .block-title{
     width: 1000px;
     margin: auto;
-    height: 300px;
+    height: 400px;
     justify-content: center;
 
 }
+.block-title-left{
+    flex-basis: 30%;
+}
 
+.block-title-right{
+    flex-basis: 70%;
+}
