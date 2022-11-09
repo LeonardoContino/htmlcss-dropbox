@@ -204,3 +204,22 @@ footer{
     flex-basis: 50%;
 
 }
+
+
+/* question */
+
+.question{
+    width: 60%;
+    margin: auto;
+    height: 500px;
+    flex-direction: column;
+}
+.title-quest{
+    width: 100%;
+    margin-top: 100px;
+    height: 100px;
+}
+.main-question{
+    width: 100%;
+    height: 100px;
+}
