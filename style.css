@@ -88,6 +88,7 @@ nav{
 main{
     width: 1000px;
     margin: auto;
+    margin-top: 100px;
 }
 .cards{
     min-height: 800px;
@@ -128,4 +129,32 @@ main{
 }
 .img-description{
     flex-basis: 40%;
+}
+
+/* db buisness */
+.db-buisness{
+    margin-top: 100px;
+    width: 100%;
+    
+    flex-direction: column;
+}
+.buisness-title{
+    width: 100%;
+    height: 80px;
+}
+.buisness-cards{
+    
+    height: 100%;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bness-card{
+    margin-top: 20px;
+    padding: 10px;
+    height: 400px;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    
+    
 }
