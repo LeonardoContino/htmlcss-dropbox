@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     
     
 }
@@ -23,8 +23,11 @@ li{
 a{
     text-decoration: none;
     padding: 10px;
+    
 }
-
+h1{
+    font-size: 60px;
+}
 /* header */
 
 .header-page{
@@ -33,6 +36,7 @@ a{
     width: 100%;
     position: fixed;
     align-items: center;
+    z-index: 1;
 }
 .header-left{
     flex-basis: 50%;
@@ -64,18 +68,20 @@ a{
     background-color: #0F60FF;
     color: white;
     padding: 5px 10px;
-    margin: 10px;
+    
 }
 .title{
     
     background-color: #B4D0E7;
     margin: auto;
     padding-top: 150px;
-    height: 600px;
+    min-height: 600px;
+    
 }
 .title-header{
     width: 1000px;
     margin: auto;
+    padding-bottom: 30px;
 
     
 }
@@ -86,12 +92,23 @@ a{
     justify-content: center;
 
 }
+.block-title-left > h5{
+    padding: 30px 0px;
+    font-size:small
+}
 .block-title-left{
     flex-basis: 30%;
 }
 
 .block-title-right{
     flex-basis: 70%;
+    position: relative;
+}
+.block-title-right > img{
+    position: absolute;
+    height: 400px;
+    top: 30px;
+    
 }
 /* main */
 
