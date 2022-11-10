@@ -241,9 +241,22 @@ h4 {
 }
 .img-person {
   flex-basis: 60%;
+  justify-content: center;
 }
 .img-description {
   flex-basis: 40%;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+}
+.img-description > h4 {
+  margin: 30px 0px;
+}
+.bottom-gray {
+  border: 2px solid black;
+  padding: 5px 10px;
+  width: max-content;
+  color: black;
 }
 
 /* db buisness */
