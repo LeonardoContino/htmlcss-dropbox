@@ -34,6 +34,7 @@ h1 {
   background-color: #0f60ff;
   color: white;
   padding: 10px 20px;
+  height: fit-content;
 }
 /* header */
 
@@ -178,11 +179,17 @@ h4 {
 .text-gray {
   color: gray;
 }
+.text-gray-large {
+  color: gray;
+  margin-bottom: 75px;
+}
 .pagamento-mensile {
   margin-bottom: 50px;
 }
 .details {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .details > div {
   margin-bottom: 10px;
@@ -203,13 +210,29 @@ h4 {
 .fa-check {
   color: #0f60ff;
 }
+.fa-ul > li {
+  margin-bottom: 20px;
+}
 
 .big-card {
   margin-top: 50px;
   width: 100%;
   height: 200px;
 }
-
+.long-card-top {
+  text-align: center;
+}
+.fa-hotel {
+  padding: 5px;
+}
+.lcb-left {
+  flex-basis: 70%;
+  flex-direction: column;
+}
+.lcb-right {
+  flex-basis: 30%;
+  justify-content: flex-end;
+}
 /* partner dropbox */
 .partner-db {
   width: 100%;
