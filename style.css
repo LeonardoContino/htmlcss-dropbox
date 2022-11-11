@@ -197,9 +197,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
 }
-.details > div {
-  margin-bottom: 10px;
-}
+
 .free-30d {
   margin: 40px 0px;
   text-align: center;
