@@ -51,6 +51,7 @@ h2 {
   align-items: center;
   z-index: 1;
   padding: 10px;
+  box-shadow: 5px 5px 10px #aaaaaa;
 }
 .header-left {
   flex-basis: 50%;
