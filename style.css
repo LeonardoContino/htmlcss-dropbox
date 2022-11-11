@@ -33,6 +33,11 @@ h2 {
   background-color: #0f60ff;
   color: white;
   padding: 5px 10px;
+  border: 5px solid transparent;
+  transition: 0.5s;
+}
+#btm-blue:hover {
+  border: 5px solid #437bec;
 }
 
 .btm-blue-large {
@@ -40,6 +45,11 @@ h2 {
   color: white;
   padding: 10px 20px;
   height: fit-content;
+  border: 5px solid transparent;
+  transition: 0.5s;
+}
+.btm-blue-large:hover {
+  border: 5px solid #437bec;
 }
 /* header */
 
@@ -108,6 +118,15 @@ h2 {
 }
 .block-title-left i {
   margin-top: 30px;
+  animation: arrow 1s ease infinite alternate;
+}
+@keyframes arrow {
+  from {
+    transform: translatey(-10px);
+  }
+  to {
+    transform: translatey(10px);
+  }
 }
 .block-title-left {
   flex-basis: 30%;
