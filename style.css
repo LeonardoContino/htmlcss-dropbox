@@ -53,6 +53,7 @@ h2 {
   padding: 10px;
   box-shadow: 5px 5px 10px #aaaaaa;
 }
+
 .header-left {
   flex-basis: 50%;
   align-items: center;
@@ -67,7 +68,15 @@ h2 {
 .ul-header a {
   color: #828282;
   align-items: center;
+  position: relative;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 30px;
 }
+.ul-header a:hover {
+  border-bottom: 2px solid black;
+  transition: 0.5px;
+}
+
 .ul-header {
   align-items: center;
 }
