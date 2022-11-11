@@ -167,6 +167,7 @@ h2 {
   width: 100%;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid gray;
 }
 .long-card-top h3 {
   display: inline-block;
@@ -411,6 +412,7 @@ footer {
   height: 100%;
   align-items: center;
   flex-basis: 40%;
+  justify-content: center;
 }
 #bottom-white {
   padding: 10px 60px;
